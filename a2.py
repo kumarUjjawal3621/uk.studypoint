@@ -15,7 +15,7 @@ upgrade_requirements()
 
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
+#from streamlit_lottie import st_lottie
 from PIL import Image
 
 
@@ -75,7 +75,7 @@ with st.container():
         )
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
     with right_column:
-        st_lottie(lottie_coding, height=300, key="coding")
+        #st_lottie(lottie_coding, height=300, key="coding")
 
 # ---- PROJECTS ----
 with st.container():

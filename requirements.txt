@@ -1,2 +1,1 @@
-streamlit<1.12.0
-streamlit_lottie<0.1.5
+streamlit==1.25.0

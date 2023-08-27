@@ -5,7 +5,15 @@ import streamlit as st
 from PIL import Image
 
 
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide",background_color="#BBFCFB")
+
+
+st.beta_set_page_config(
+    page_title="My Streamlit App",
+    page_icon=":smiley:",
+    layout="wide",  # You can adjust this based on your layout preference
+    initial_sidebar_state="expanded",
+    background_color="#BBFCFB",  # Set your desired background color here
+)
 
 st.markdown("""
         <style>

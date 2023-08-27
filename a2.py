@@ -1,17 +1,3 @@
-import subprocess
-
-def upgrade_requirements():
-    try:
-        # Run pip command to upgrade requirements
-        result = subprocess.run(["pip", "install", "-r", "requirements.txt", "--upgrade"], capture_output=True, text=True, check=True)
-        print(result.stdout)
-        print("Requirements upgraded successfully.")
-    except subprocess.CalledProcessError as e:
-        print("Error upgrading requirements:")
-        print(e.stderr)
-
-# Call the function to upgrade requirements
-upgrade_requirements()
 
 import requests
 import streamlit as st
@@ -42,6 +28,7 @@ lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fc
 img_contact_form = Image.open("Chemistry.png")
 img_contact_form2 = Image.open("Math.png")
 img_lottie_animation = Image.open("Physics.png")
+img_contact_form3=Image.open("animation.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -74,6 +61,8 @@ with st.container():
             """
         )
         st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
+    with right_column:
+        st.image(img_contact_form3)
 
 # ---- PROJECTS ----
 with st.container():

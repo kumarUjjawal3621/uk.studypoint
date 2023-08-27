@@ -1,3 +1,18 @@
+import subprocess
+
+def upgrade_requirements():
+    try:
+        # Run pip command to upgrade requirements
+        result = subprocess.run(["pip", "install", "-r", "requirements.txt", "--upgrade"], capture_output=True, text=True, check=True)
+        print(result.stdout)
+        print("Requirements upgraded successfully.")
+    except subprocess.CalledProcessError as e:
+        print("Error upgrading requirements:")
+        print(e.stderr)
+
+# Call the function to upgrade requirements
+upgrade_requirements()
+
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie

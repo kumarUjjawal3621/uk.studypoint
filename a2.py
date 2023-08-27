@@ -48,7 +48,7 @@ with st.container():
     st.write(
         """
         We are passionate about helping students reach their academic goals and excel in their studies. 
-        With [X] years of experience in online education, we have honed our expertise in providing personalized 
+        With 6 years of experience in online education, we have honed our expertise in providing personalized 
         and effective tutoring in Mathematics, Science & Programming.
         """
     )

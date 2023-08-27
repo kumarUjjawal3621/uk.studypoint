@@ -4,24 +4,7 @@ import streamlit as st
 #from streamlit_lottie import st_lottie
 from PIL import Image
 
-
-
-
-st.set_page_config(
-    page_title="My Streamlit App",
-    page_icon=":smiley:",
-    layout="wide",  # You can adjust this based on your layout preference
-    initial_sidebar_state="expanded",
-    background_color="#BBFCFB",  # Set your desired background color here
-)
-
-st.markdown("""
-        <style>
-            body {
-                background-color: #BBFCFB; /* Set your desired background color here */
-            }
-        </style>
-    """, unsafe_allow_html=True)
+st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 def load_lottieurl(url):
     r = requests.get(url)

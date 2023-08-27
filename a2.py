@@ -39,9 +39,9 @@ local_css("style.css")
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-img_contact_form = Image.open("images/Chemistry.png")
-img_contact_form2 = Image.open("images/Math.png")
-img_lottie_animation = Image.open("images/Physics.png")
+img_contact_form = Image.open("Chemistry.png")
+img_contact_form2 = Image.open("Math.png")
+img_lottie_animation = Image.open("Physics.png")
 
 # ---- HEADER SECTION ----
 with st.container():

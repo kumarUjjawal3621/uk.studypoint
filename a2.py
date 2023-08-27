@@ -7,7 +7,16 @@ from PIL import Image
 
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
-st.beta_container().css("background-color: #BBFCFB;")
+st.markdown(
+        """
+        <style>
+            body {
+                background-color: #BBFCFB;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
 
 def load_lottieurl(url):
     r = requests.get(url)

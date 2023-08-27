@@ -5,7 +5,7 @@ import streamlit as st
 from PIL import Image
 
 
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide",background_color="#BBFCFB")
 
 st.markdown("""
         <style>

@@ -7,7 +7,7 @@ from PIL import Image
 
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
-t.beta_container().css("background-color: #BBFCFB;")
+st.beta_container().css("background-color: #BBFCFB;")
 
 def load_lottieurl(url):
     r = requests.get(url)

@@ -8,15 +8,11 @@ from PIL import Image
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 st.markdown("""
-    <style>
-        body {
-            background-color: #BBFCFB;
-            color: #020202;  /* Text color */
-        }
-        .sidebar {
-            background-color: #0083B8;  /* Sidebar color */
-        }
-    </style>
+        <style>
+            body {
+                background-color: #BBFCFB; /* Set your desired background color here */
+            }
+        </style>
     """, unsafe_allow_html=True)
 
 def load_lottieurl(url):

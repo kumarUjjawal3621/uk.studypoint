@@ -9,7 +9,7 @@ st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 primaryColor = '#E694FF'
 backgroundColor = '#BBFCFB'
-secondaryBackgroundColor = '#0083B8'
+secondaryBackgroundColor = '#BBFCFB'
 textColor = '#020202'
 
 st.markdown(f"""

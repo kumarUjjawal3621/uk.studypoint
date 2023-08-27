@@ -7,7 +7,7 @@ from PIL import Image
 
 
 
-st.beta_set_page_config(
+st.set_page_config(
     page_title="My Streamlit App",
     page_icon=":smiley:",
     layout="wide",  # You can adjust this based on your layout preference

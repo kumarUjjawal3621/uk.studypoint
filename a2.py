@@ -7,22 +7,10 @@ from PIL import Image
 
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
-primaryColor = '#E694FF'
-backgroundColor = '#BBFCFB'
-secondaryBackgroundColor = '#BBFCFB'
-textColor = '#020202'
-
 st.markdown(f"""
         <style>
             body {{
-                background-color: {backgroundColor};
-                color: {textColor};
-            }}
-            .sidebar {{
-                background-color: {secondaryBackgroundColor};
-            }}
-            .element-container {{
-                background-color: {primaryColor};
+                background-color: #BBFCFB;
             }}
         </style>
     """, unsafe_allow_html=True)

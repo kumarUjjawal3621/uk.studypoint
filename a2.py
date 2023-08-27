@@ -7,6 +7,25 @@ from PIL import Image
 
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
+primaryColor = '#E694FF'
+backgroundColor = '#BBFCFB'
+secondaryBackgroundColor = '#0083B8'
+textColor = '#020202'
+
+st.markdown(f"""
+        <style>
+            body {{
+                background-color: {backgroundColor};
+                color: {textColor};
+            }}
+            .sidebar {{
+                background-color: {secondaryBackgroundColor};
+            }}
+            .element-container {{
+                background-color: {primaryColor};
+            }}
+        </style>
+    """, unsafe_allow_html=True)
 
 def load_lottieurl(url):
     r = requests.get(url)

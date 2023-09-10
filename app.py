@@ -32,7 +32,7 @@ img_lottie_animation = Image.open("images/Physics.png")
 # ---- HEADER SECTION ----
 with st.container():
     st.markdown("<h1 style='color: blue;'>Welcome to StudyPoint</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='color: purple;'>Empowering Minds: Unleashing Students Excellence through Interactive Learning", unsafe_allow_html=True)
+    st.markdown("<h2 style='color: purple;'>Empowering Minds: Unleashing Student Excellence through Learning", unsafe_allow_html=True)
     st.write(
         """
         We are passionate about helping students reach their academic goals and excel in their studies. 
